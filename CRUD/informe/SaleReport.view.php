@@ -1,0 +1,23 @@
+<html>
+      <head>
+        <title> Lista de productos </title>
+        </head>
+        <body>
+        <?php
+        \koolreport\widgets\koolphp\Table::create(array(
+            "dataSource"=>$this->dataStore("result"),
+            "columns"=>array(
+              "categorias"
+              "obje_catego";
+         ));
+         ?>
+         <?php
+        \koolreport\widgets\koolphp\Table::create(array(
+            "dataSource"=>$this->dataStore("result"),
+            "columns"=>array(
+              "ObjetoEntrando"
+              "obje_catego";
+         ));
+         ?>
+         </body>
+</html>
